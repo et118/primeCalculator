@@ -1,0 +1,33 @@
+#primtal {
+  word-wrap: break-word;
+  font-size: 10px;
+}
+#seconds {
+  font-size: 25px;
+}
+#Calculate {
+  width: 120px;
+  height: 40px;
+  border: 5px double green;
+}
+#View {
+  width: 120px;
+  height: 40px;
+  border: 5px double lightblue;
+}
+#Calculate:hover {
+  border-style: groove;
+  width: 130px;
+  height: 45px;
+}
+#View:hover {
+  border-style: groove;
+  width: 130px;
+  height: 45px;
+}
+#input {
+  font-size: 20px;
+}
+#separator {
+  width: 230px;
+}
