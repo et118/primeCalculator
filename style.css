@@ -3,16 +3,19 @@
   font-size: 10px;
 }
 #seconds {
+    display: block;
   font-size: 25px;
   margin: 0 auto;
 }
 #Calculate {
+    display:block;
   width: 120px;
   height: 40px;
   border: 5px double green;
   margin: 0 auto;
 }
 #View {
+    display: block;
     width: 120px;
     height: 40px;
     border: 5px double lightblue;
@@ -29,10 +32,12 @@
   height: 45px;
 }
 #input {
+    display: block;
     font-size: 20px;
     margin: 0 auto;
 }
 #separator {
+    display: block;
     width: 230px;
     margin: 0 auto;
 }
