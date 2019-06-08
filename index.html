@@ -1,31 +1,28 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Calculate Primes</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    
-    <input type="text" placeholder="What separator between the numbers?" id="separator">
-    <h4> Make sure to select the separator first. Then calculate the primes and then download. The deafult separator is ",".</h4>
-    <input type="number" id="input" placeholder="What number">
-    <br>
-    <br>
-    <button type="button" onclick="primtal()" id="Calculate">Calculate</button>
-    <button type="button" onclick="view()" id="View">View Result</button>
-    <br>
-    <br>
-    
-    <a href="" id="download_link" download="primes.txt">Download as .txt File</a>
-    <div id="error"></div>
-    <div id="Done"></div>
-    
-    <div id="seconds"></div>
-    <br>
-    <div id="primtal"></div>
-    <script src="script.js"></script>
-    
-  </body>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Calculate Primes</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	<input type="text" placeholder="What separator between the numbers?" id="separator">
+	<h4> Make sure to select the separator first. Then calculate the primes and then download. The deafult separator is ",".</h4>
+	<input type="number" id="input" placeholder="What number?">
+	<br>
+	<br>
+	<button type="button" onclick="primtal()" id="Calculate">Calculate</button>
+	<button type="button" onclick="view()" id="View">View Result</button>
+
+	<a href="" id="download_link" download="primes.txt" id="download"><p>Download as .txt File</p></a>
+	<div id="Done"></div>
+
+	<div id="seconds"></div>
+	<br>
+	<div id="primtal"></div>
+	<script src="script.js"></script>
+
+</body>
 </html>
